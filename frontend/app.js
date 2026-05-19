@@ -1,6 +1,6 @@
 /**
  * Frontend simple para CRUD de productos de la tienda de perritos.
- * EP2 DevOps - Tienda Perritos
+ * EP2 DevOps - Tienda Perritos v2
  */
 
 // Determinar la URL base de la API según el host
