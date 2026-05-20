@@ -50,6 +50,6 @@ jobs:
               \"sudo docker pull $ECR_REPO:latest\",
               \"sudo docker stop tienda-backend || true\",
               \"sudo docker rm tienda-backend || true\",
-              \"sudo docker run -d --name tienda-backend --restart unless-stopped -p 3001:3001 -e DB_HOST=10.0.3.201 -e DB_PORT=3306 -e DB_USER=tienda_user -e DB_PASSWORD=tienda_pass -e DB_NAME=tienda_perritos $ECR_REPO:latest\"
+              \"sudo docker run -d --name tienda-backend --restart unless-stopped -p 3001:3001 -e DB_HOST=10.0.14.48 -e DB_PORT=3306 -e DB_USER=tienda_user -e DB_PASSWORD=tienda_pass -e DB_NAME=tienda_perritos $ECR_REPO:latest\"
             ]" \
             --output text
